@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  height: 60px;
+}
+
+ul {
+  display: flex;
+  justify-content: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  background-color: #611c35;
+  width: 100px;
+  border: solid black;
+  border-radius: 25px;
+}
+
+li:hover {
+  background-color: #d7e8ba;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #ffe699;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7e8ba;
+  height: 400px;
+  font-family: "Marck Script", cursive;
+  font-size: 2rem;
+  border-top: solid 5px #611c35;
+  border-bottom: solid 5px #611c35;
+  background-image: url("./pictureOne.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
